@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageListActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/divider_line_horizontal"
+        tools:context=".ConversationDetailActivity"
+        android:id="@+id/conversation_detail_activity">
+
+    </FrameLayout>
+
+
+    <View
+        android:id="@+id/divider_line_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/input_section"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:id="@+id/input_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/new_message_input_box"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:inputType="text"
+            android:imeOptions="actionSend"
+            android:paddingLeft="3dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"/>
+
+        <View
+            android:id="@+id/divider_line_vertical"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_action_up_option_meun"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</RelativeLayout>

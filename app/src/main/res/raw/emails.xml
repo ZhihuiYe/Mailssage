@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_element>
+    <in_email>
+        <owner_id>2</owner_id>
+        <create_time>100000001</create_time>
+        <subject>subject 1</subject>
+        <content>email detail 1</content>
+    </in_email>
+
+    <out_email>
+        <owner_id>2</owner_id>
+        <create_time>600000001</create_time>
+        <subject>subject 2</subject>
+        <content>email detail 2</content>
+    </out_email>
+
+    <in_email>
+        <owner_id>2</owner_id>
+        <create_time>200000001</create_time>
+        <subject>subject 3</subject>
+        <content>email detail 3</content>
+    </in_email>
+
+    <out_email>
+        <owner_id>2</owner_id>
+        <create_time>500000001</create_time>
+        <subject>subject 4</subject>
+        <content>email detail 4</content>
+    </out_email>
+
+    <in_email>
+        <owner_id>2</owner_id>
+        <create_time>300000001</create_time>
+        <subject>subject 5</subject>
+        <content>email detail 5</content>
+    </in_email>
+
+    <out_email>
+        <owner_id>3</owner_id>
+        <create_time>400000001</create_time>
+        <subject>subject 6</subject>
+        <content>email detail 6</content>
+    </out_email>
+</root_element>

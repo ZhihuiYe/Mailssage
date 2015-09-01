@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_element>
+    <conversation>
+        <sender_contact_id>2</sender_contact_id>
+    </conversation>
+
+    <conversation>
+        <sender_contact_id>3</sender_contact_id>
+    </conversation>
+</root_element>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_element>
+    <in_message>
+        <owner_id>2</owner_id>
+        <create_time>100000000</create_time>
+        <content>message detail 1</content>
+    </in_message>
+
+    <out_message>
+        <owner_id>2</owner_id>
+        <create_time>600000000</create_time>
+        <content>message detail 2</content>
+    </out_message>
+
+    <in_message>
+        <owner_id>2</owner_id>
+        <create_time>200000000</create_time>
+        <content>message detail 3</content>
+    </in_message>
+
+    <out_message>
+        <owner_id>2</owner_id>
+        <create_time>500000000</create_time>
+        <content>message detail 4</content>
+    </out_message>
+
+    <in_message>
+        <owner_id>2</owner_id>
+        <create_time>300000000</create_time>
+        <content>message detail 5</content>
+    </in_message>
+
+    <out_message>
+        <owner_id>3</owner_id>
+        <create_time>400000000</create_time>
+        <content>message detail 6</content>
+    </out_message>
+</root_element>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_element>
+    <contact>
+        <name>Tom</name>
+        <email>tom1213@example.com</email>
+        <description>Product Manager of company XXX. Product Manager of company XXX. Product Manager of company XXX. Product Manager of company XXX. </description>
+        <image_id>0</image_id>
+    </contact>
+
+    <contact>
+        <name>Jack</name>
+        <email>jack3421@example.com</email>
+        <description>Custom has two kids</description>
+        <image_id>0</image_id>
+    </contact>
+
+    <contact>
+        <name>Tim</name>
+        <email>tim4212@example.com</email>
+        <description>Custom single has no kids</description>
+        <image_id>0</image_id>
+    </contact>
+
+    <contact>
+        <name>kayle</name>
+        <email>kayle1345@example.com</email>
+        <description>CEO of company XXX</description>
+        <image_id>0</image_id>
+    </contact>
+
+    <contact>
+        <name>Janet</name>
+        <email>janet9831@example.com</email>
+        <description>Teacher of XXX high school</description>
+        <image_id>0</image_id>
+    </contact>
+</root_element>
